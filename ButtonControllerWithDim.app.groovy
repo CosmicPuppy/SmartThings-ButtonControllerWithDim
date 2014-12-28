@@ -1,14 +1,14 @@
 /**
- *	Button Controller
+ *	Button Controller With Dim
  *
- *	Author: SmartThings
- *	Date: 2014-5-21
+ *	Author: Terry Gauchat based on Button Controller (by SmartThings)
+ *	Date: 2014-12-28
  */
 definition(
-    name: "Button Controller",
-    namespace: "smartthings",
-    author: "SmartThings",
-    description: "Control devices with buttons like the Aeon Labs Minimote",
+    name: "Button Controller With Dim",
+    namespace: "CosmicPuppy",
+    author: "Terry Gauchat (based on SmartThings)",
+    description: "Control devices with buttons like the Aeon Labs Minimote; Option to map 2 buttons to dim up/down last light.",
     category: "Convenience",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/MyApps/Cat-MyApps.png",
     iconX2Url: "https://s3.amazonaws.com/smartapp-icons/MyApps/Cat-MyApps@2x.png"
